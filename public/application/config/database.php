@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
+	'hostname' => 'database',
 	'username' => 'api_user',
 	'password' => '92B375652A6FC57C',
 	'database' => 'api_med',
