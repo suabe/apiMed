@@ -28,3 +28,6 @@ phpmyadmin se inicia en el puerto 8282
 login with username `api_user` and password `92B375652A6FC57C`
 ```
 > Acceder desde [aqui](http://localhost:8282/)
+
+apiTimClinic
+W5uw9ih*$Gh]

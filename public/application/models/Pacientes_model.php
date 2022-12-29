@@ -27,6 +27,7 @@
             $this->db->set('PLACE_OF_BIRTH', $data['PLACE_OF_BIRTH']);
             $this->db->set('MARITAL_STATUS', $data['MARITAL_STATUS']);
             $this->db->set('EMAIL', $data['EMAIL']);
+            $this->db->set('DYNAMIC_KEY', hash("md5", $data['EMAIL']));
             $this->db->set('STATUS', 'activo');
 
             if ($this->db->insert('MA_USERS')) {
